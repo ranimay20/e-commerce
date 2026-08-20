@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ranim Store</title>
+        <link rel="stylesheet" herf="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Ranim Srote</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#products">products</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </header>
+        <section class="hero">
+            <h2>Welcome to RAnim Store</h2>
+            <p>Discover our lates products.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </section>
+        <section id="products class=products">
+            <h2>Our products</h2>
+            <div class="product-container">
+                <div class="product">
+                    <div class="product-image">
+                        <img src="images/shoes.jpg" alt="Classic Sneakers">
+                    </div>
+                    <h3>Classic Sneakers</h3>
+                    <p>$45</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="images/bag.jpg" alt="Elegant Bag">
+                    <h3>Elegant Bag</h3>
+                    <p>$35</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="images/watch.jpg" alt="Smart Watch">
+                    <h3>Smart Watch</h3>
+                    <p>$60</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
